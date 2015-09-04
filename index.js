@@ -42,12 +42,12 @@ var getPlatforms = function (projectName) {
         iconsPath : 'www/res/icon/android/',
         isAdded : fs.existsSync('platforms/android'),
         icons : [
-            { name : 'drawable/icon.png',       size : 96 },
-            { name : 'drawable-hdpi/icon.png',  size : 72 },
-            { name : 'drawable-ldpi/icon.png',  size : 36 },
-            { name : 'drawable-mdpi/icon.png',  size : 48 },
-            { name : 'drawable-xhdpi/icon.png', size : 96 },
-            { name : 'drawable-xxhdpi/icon.png', size : 144 },
+            { name : 'icon-72-hdpi.png',  size : 72 },
+            { name : 'icon-36-ldpi.png',  size : 36 },
+            { name : 'icon-48-mdpi.png',  size : 48 },
+            { name : 'icon-96-xhdpi.png', size : 96 },
+            { name : 'icon-144-xxhdpi.png', size : 144 },
+            { name : 'icon-192-xxxhdpi.png', size : 192 },
         ]
     });
     // TODO: add all platforms
